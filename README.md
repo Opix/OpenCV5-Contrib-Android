@@ -10,7 +10,16 @@ https://github.com/opencv/opencv/wiki/Custom-OpenCV-Android-SDK-and-AAR-package-
 3) Delete everything under opencv/build every time you run the python command below.
 4) Find the right NDK version (/Users/xxx/Library/Android/sdk/ndk/28.2.13676358) based on
 Android Gradle Plugin (AGP) version.  For AGP 9.2.1, NDK = 28.2
-5) Run the code below in Terminal (at opencv):
+
+5) Make changes as follows (or pick your own version numbers):
+
+<img width="708" height="641" alt="Screenshot 2026-06-27 at 11 13 05 PM" src="https://github.com/user-attachments/assets/17ac1dd8-8c83-4e3e-9e80-ac830752a013" />
+
+<img width="708" height="519" alt="Screenshot 2026-06-27 at 11 13 29 PM" src="https://github.com/user-attachments/assets/1e63d1a2-80b6-4e7d-af98-e8322b72a0de" />
+
+<img width="619" height="460" alt="Screenshot 2026-06-27 at 11 13 57 PM" src="https://github.com/user-attachments/assets/5f3a82c5-101b-4d12-b34e-ec4e2153e1ca" />
+
+6) Run the code below in Terminal (at opencv):
 
 python3 platforms/android/build_sdk.py \\
 
@@ -28,5 +37,3 @@ build \\
 
 --no_samples_build
 
-5) Errors happen with jcenter().  Replace them with mavenCentral().
-6) ndk-25.config.py needs to have the latest version numbers.
