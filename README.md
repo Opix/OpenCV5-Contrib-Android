@@ -12,7 +12,7 @@ Or you can compile by yourself with your specific versions on your **Mac**.  Som
 4) **Important**: Find the right NDK version (/Users/xxx/Library/Android/sdk/ndk/28.2.13676358) based on
 Android Gradle Plugin (AGP) version.  For AGP 9.2.1, NDK = 28.2.
 
-If they don't match, then OpenCVLoader.initLocal() in your app will fail even though you can still generate the library.
+If they don't match, then OpenCVLoader.initLocal() in your Android app will fail even though you can still generate the library.
 
 5) Make changes as follows (or pick your own version numbers):
 
@@ -22,7 +22,7 @@ If they don't match, then OpenCVLoader.initLocal() in your app will fail even th
 
 <img width="619" height="460" alt="Screenshot 2026-06-27 at 11 13 57 PM" src="https://github.com/user-attachments/assets/5f3a82c5-101b-4d12-b34e-ec4e2153e1ca" />
 
-6) Run the code below in Terminal (at opencv).  **xxx** should be your own username.
+6) Run the code below in Terminal (at opencv).  **xxx** should be your own username.  Again, make sure you change the "**28.2.13676358**" part for your specific needs.
 ```
 python3 platforms/android/build_sdk.py \
 build \
