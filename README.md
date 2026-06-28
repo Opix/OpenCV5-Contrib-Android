@@ -1,7 +1,7 @@
 # OpenCV5-Contrib-Android
 OpenCV 5.x SDK plus opencv_contrib for Android.  You can simply get the repo and add to your Droid project.  
 
-Or you can compile by yourself with your specific versions.  Some helpful links:   
+Or you can compile by yourself with your specific versions on your **Mac**.  Some helpful links:   
 
 - https://github.com/opencv/opencv/releases
 - https://github.com/opencv/opencv/wiki/Custom-OpenCV-Android-SDK-and-AAR-package-build
