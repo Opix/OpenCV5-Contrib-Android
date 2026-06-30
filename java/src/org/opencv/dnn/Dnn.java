@@ -35,7 +35,20 @@ public class Dnn {
             ACTIV_GELU = 0+8,
             ACTIV_GELU_APPROX = 0+9,
             ACTIV_RELU = 0+10,
-            ACTIV_CLIP = 0+11;
+            ACTIV_CLIP = 0+11,
+            ACTIV_LOG = 0+12,
+            ACTIV_ERF = 0+13,
+            ACTIV_EXP = 0+14,
+            ACTIV_SIN = 0+15,
+            ACTIV_COS = 0+16,
+            ACTIV_SINH = 0+17,
+            ACTIV_COSH = 0+18,
+            ACTIV_TAN = 0+19,
+            ACTIV_SOFTPLUS = 0+20,
+            ACTIV_BNLL = 0+21,
+            ACTIV_ASINH = 0+22,
+            ACTIV_ACOSH = 0+23,
+            ACTIV_ATANH = 0+24;
 
 
     // C++: enum ArgKind (cv.dnn.ArgKind)
